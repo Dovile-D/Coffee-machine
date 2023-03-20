@@ -10,6 +10,8 @@ public class CoffeeMachine {
         int currentMoney = 550;
         int currentCups = 9;
 
+        boolean useMachine = true;
+
         Scanner scanner = new Scanner(System.in);
 
 //        System.out.println("Starting to make a coffee");
@@ -56,36 +58,34 @@ public class CoffeeMachine {
         int water = 0;
         int coffee = 0;
         int milk = 0;
-        int price =  0;
+        int price = 0;
         int cups = 0;
 
 
-
-
-        System.out.println("Write action (buy, fill, take):");
-        String choice = scanner.nextLine();
+        while (useMachine) {
+            System.out.println("Write action (buy, fill, take, remaining, exit):");
+            String choice = scanner.nextLine();
 
             switch (choice) {
                 case "buy":
-                    printCurrentStatement(currentWater, currentMilk, currentCoffee,currentCups, currentMoney);
                     System.out.println("What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino:");
-                    int coffeeType = scanner.nextInt();
+                    String coffeeType = scanner.nextLine();
                     switch (coffeeType) {
-                        case 1:
+                        case "1":
                             water = 250;
                             coffee = 16;
                             milk = 0;
                             price = 4;
                             cups = 1;
                             break;
-                        case 2:
+                        case "2":
                             water = 350;
                             milk = 75;
                             coffee = 20;
                             price = 7;
                             cups = 1;
                             break;
-                        case 3:
+                        case "3":
                             water = 200;
                             milk = 100;
                             coffee = 12;
@@ -93,17 +93,31 @@ public class CoffeeMachine {
                             cups = 1;
                             break;
                     }
+                    if (currentWater >= water && currentMilk >= milk && currentCoffee >= coffee && currentCups >= cups) {
+
                     currentWater = currentWater - water;
                     currentMilk = currentMilk - milk;
                     currentCoffee = currentCoffee - coffee;
                     currentMoney = currentMoney + price;
                     currentCups = currentCups - cups;
+                        System.out.println("I have enough resources, making you a coffee!");
+                    }
+                    else if (water > currentWater) {
+                        System.out.println("Sorry, not enough water!");
+                    }
+                    else if (milk > currentMilk) {
+                        System.out.println("Sorry, not enough milk!");
+                    }
+                    else if (coffee > currentCoffee) {
+                        System.out.println("Sorry, not enough coffee beans!");
+                    }
+                    else if (cups > currentCups) {
+                        System.out.println("Sorry, not enough cups!");
+                    }
 
-                    printCurrentStatement(currentWater, currentMilk, currentCoffee,currentCups, currentMoney);
                     break;
-                case "fill":
-                    printCurrentStatement(currentWater, currentMilk, currentCoffee,currentCups, currentMoney);
 
+                case "fill":
                     System.out.println("Write how many ml of water you want to add:");
                     water = scanner.nextInt();
                     System.out.println("Write how many ml of milk you want to add:");
@@ -117,21 +131,21 @@ public class CoffeeMachine {
                     currentMilk = currentMilk + milk;
                     currentCoffee = currentCoffee + coffee;
                     currentCups = currentCups + cups;
-
-                    printCurrentStatement(currentWater, currentMilk, currentCoffee,currentCups, currentMoney);
-
                     break;
                 case "take":
-                    printCurrentStatement(currentWater, currentMilk, currentCoffee,currentCups, currentMoney);
-
                     System.out.println("I gave you $" + currentMoney);
                     currentMoney = 0;
-
-                    printCurrentStatement(currentWater, currentMilk, currentCoffee,currentCups, currentMoney);
                     break;
-
+                case "remaining":
+                    printCurrentStatement(currentWater, currentMilk, currentCoffee, currentCups, currentMoney);
+                    break;
+                case "exit":
+                    useMachine = false;
+                    break;
             }
         }
+
+    }
 
 
     public static void printCurrentStatement(int water, int milk, int coffee, int cups, int money) {
