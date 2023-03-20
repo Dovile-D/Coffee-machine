@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class CoffeeMachine {
     public static void main(String[] args) {
-        int currentWater = 0;
-        int currentMilk = 0;
-        int currentCoffee = 0;
-        int currentMoney = 0;
-        int currentCups = 0;
+        int currentWater = 400;
+        int currentMilk = 540;
+        int currentCoffee = 120;
+        int currentMoney = 550;
+        int currentCups = 9;
 
         Scanner scanner = new Scanner(System.in);
 
@@ -56,17 +56,18 @@ public class CoffeeMachine {
         int water = 0;
         int coffee = 0;
         int milk = 0;
-        int price = 0;
+        int price =  0;
         int cups = 0;
 
 
 
 
-        System.out.println("Please, choose an operation: ");
+        System.out.println("Write action (buy, fill, take):");
         String choice = scanner.nextLine();
 
             switch (choice) {
                 case "buy":
+                    printCurrentStatement(currentWater, currentMilk, currentCoffee,currentCups, currentMoney);
                     System.out.println("What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino:");
                     int coffeeType = scanner.nextInt();
                     switch (coffeeType) {
@@ -97,19 +98,43 @@ public class CoffeeMachine {
                     currentCoffee = currentCoffee - coffee;
                     currentMoney = currentMoney + price;
                     currentCups = currentCups - cups;
+
+                    printCurrentStatement(currentWater, currentMilk, currentCoffee,currentCups, currentMoney);
                     break;
                 case "fill":
+                    printCurrentStatement(currentWater, currentMilk, currentCoffee,currentCups, currentMoney);
+
+                    System.out.println("Write how many ml of water you want to add:");
+                    water = scanner.nextInt();
+                    System.out.println("Write how many ml of milk you want to add:");
+                    milk = scanner.nextInt();
+                    System.out.println("Write how many grams of coffee beans you want to add:");
+                    coffee = scanner.nextInt();
+                    System.out.println("Write how many grams of coffee beans you want to add:");
+                    cups = scanner.nextInt();
+
+                    currentWater = currentWater + water;
+                    currentMilk = currentMilk + milk;
+                    currentCoffee = currentCoffee + coffee;
+                    currentCups = currentCups + cups;
+
+                    printCurrentStatement(currentWater, currentMilk, currentCoffee,currentCups, currentMoney);
 
                     break;
                 case "take":
-                    take();
+                    printCurrentStatement(currentWater, currentMilk, currentCoffee,currentCups, currentMoney);
+
+                    System.out.println("I gave you $" + currentMoney);
+                    currentMoney = 0;
+
+                    printCurrentStatement(currentWater, currentMilk, currentCoffee,currentCups, currentMoney);
                     break;
 
             }
         }
 
 
-    public void printCurrentStatement(int water, int milk, int coffee, int cups, int money) {
+    public static void printCurrentStatement(int water, int milk, int coffee, int cups, int money) {
 
         System.out.println("The coffee machine has:\n" +
                 + water + " ml of water\n" +
