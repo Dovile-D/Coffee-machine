@@ -1,0 +1,28 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: 'Yes, it is possible by using a static block in the Java program. '
+- text: No, it is impossible.
+- text: Yes, it is possible by using class with name Main.
+- text: Yes, it is possible by using special VM options.
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2070#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Sun, 26 Mar 2023 17:42:23 UTC
+record: -1
+selected_options:
+- 1
+local_check: false

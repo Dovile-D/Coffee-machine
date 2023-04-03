@@ -9,12 +9,118 @@
       <module name="Coffee_Machine_(Java).Coffee_Machine__Java_-task-build-test-results.main" target="11" />
       <module name="Coffee_Machine_(Java).Coffee_Machine__Java_-task-build-tmp.main" target="11" />
       <module name="Coffee_Machine_(Java).Coffee_Machine__Java_-task.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Array-Creating_arrays.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Array-Declarations.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Array-Initializing_an_array_of_integers.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Array-Theory.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Arrays_as_parameters-How_to_invoke_the_method.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Arrays_as_parameters-Inverse_boolean_flags.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Arrays_as_parameters-The_declaration_of_the_sumAll_method.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Arrays_as_parameters-Theory.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Arrays_as_parameters-What_does_the_method_print.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Calling_a_method-Abs_method.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Calling_a_method-Area_of_parallelogram.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Calling_a_method-Call_me_awesome.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Calling_a_method-Correct_names_for_methods.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Calling_a_method-Theory.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Conditional_statement-Interval.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Conditional_statement-Statements.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Conditional_statement-The_army_of_units.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Conditional_statement-The_condition_to_travel_around_the_world.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Conditional_statement-Theory.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Constructor-A_required_part_of_a_class.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Constructor-Book.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Constructor-Characterize_the_constructors.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Constructor-How_to_write_a_constructor.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Constructor-Theory.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Debugging_techniques-Development_approach.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Debugging_techniques-Find_the_error.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Debugging_techniques-Theory.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Declaring_a_method-Calculating_factorials.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Declaring_a_method-Division.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Declaring_a_method-Method_signature.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Declaring_a_method-The_sign_of_a_number.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Declaring_a_method-Theory.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Defining_classes-A_keyword_for_creating_objects.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Defining_classes-Complex_numbers.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Defining_classes-Inner_boxes.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Defining_classes-The_keyword.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Defining_classes-Theory.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Enums_in_Java-Days_of_week.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Enums_in_Java-Enum_with_two_constants.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Enums_in_Java-Hidden_enumeration.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Enums_in_Java-Theory.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Errors_in_programs-Fix_compile-time_errors.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Errors_in_programs-Fix_the_program.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Errors_in_programs-Select_the_statement.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Errors_in_programs-Theory.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Functional_decomposition-A_quadratic_equation.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Functional_decomposition-How_to_decompose_correctly.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Functional_decomposition-Kate's_math_function.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Functional_decomposition-Theory.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Functional_decomposition-Why_decompose_a_program.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Getters_and_setters-Book.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Getters_and_setters-Choose_a_pair_of_getter_and_setter.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Getters_and_setters-Complex.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Getters_and_setters-Getting_the_fullname.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Getters_and_setters-Theory.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Hierarchy_of_exceptions-BadRequestException.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Hierarchy_of_exceptions-Base_class.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Hierarchy_of_exceptions-Base_classes_of_RuntimeException.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Hierarchy_of_exceptions-Subclasses_of_RuntimeException.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Hierarchy_of_exceptions-The_base_class.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Hierarchy_of_exceptions-Theory.main" target="11" />
       <module name="Coffee_Machine_(Java).Topics-Increment_and_decrement-Decrement_all.main" target="11" />
       <module name="Coffee_Machine_(Java).Topics-Increment_and_decrement-Remainder_of_division.main" target="11" />
       <module name="Coffee_Machine_(Java).Topics-Increment_and_decrement-Theory.main" target="11" />
       <module name="Coffee_Machine_(Java).Topics-Increment_and_decrement-What_is_the_result.main" target="11" />
       <module name="Coffee_Machine_(Java).Topics-Increment_and_decrement-What_is_the_result__1_.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Inheritance-Access_members_inside_child_classes.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Inheritance-Classes_for_Hospital.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Inheritance-Pet_inheritance.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Inheritance-Theory.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Instance_methods-Car.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Instance_methods-Counter.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Instance_methods-Invoke_instance_method.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Instance_methods-Theory.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Instance_methods-What_is_it.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Integer_types_and_operations-Arithmetic_expression.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Integer_types_and_operations-Calculate_the_digit.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Integer_types_and_operations-Desks.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Integer_types_and_operations-How_many_nuts_each_squirrel_will_get.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Integer_types_and_operations-Theory.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Iterating_over_arrays-Find_the_sum.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Iterating_over_arrays-Right_Rotation.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Iterating_over_arrays-Sum_array_elements_greater_than_a_value.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Iterating_over_arrays-Theory.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Multiple_constructors-About_constructors.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Multiple_constructors-Entanglement.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Multiple_constructors-Phone.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Multiple_constructors-Theory.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Objects-Army.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Objects-Change_identities.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Objects-Immutability.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Objects-Null_or_not.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Objects-Theory.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Objects-What_is_the_value_of_a_field.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Package-A_keyword_for_importing_a_class.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Package-Creating_instances.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Package-Purpose.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Package-Sorting_arrays.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Package-The_default_import.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Package-Theory.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Printing_data-Find_a_way.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Printing_data-Strong_protection.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Printing_data-Theory.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Printing_data-We_need_to_learn_Java.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Printing_data-What_does_the_code_print.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Static_members-About_static_members.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Static_members-Accessing_static_members.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Static_members-Theory.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Static_members-Time_constants.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Static_members-Too_many_cats.main" target="11" />
       <module name="Coffee_Machine_(Java).Topics-Switch_statement-A_simple_calculator.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Switch_statement-Harry_Potter.main" target="11" />
       <module name="Coffee_Machine_(Java).Topics-Switch_statement-Rewriting_code_using_switch.main" target="11" />
       <module name="Coffee_Machine_(Java).Topics-Switch_statement-Shape.main" target="11" />
       <module name="Coffee_Machine_(Java).Topics-Switch_statement-Test_learners.main" target="11" />
@@ -24,11 +130,25 @@
       <module name="Coffee_Machine_(Java).Topics-The_for-loop-Statements.main" target="11" />
       <module name="Coffee_Machine_(Java).Topics-The_for-loop-The_product_of_numbers_from_a_to_b.main" target="11" />
       <module name="Coffee_Machine_(Java).Topics-The_for-loop-Theory.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-The_keyword_super-Bank_account.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-The_keyword_super-Theory.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-The_keyword_super-When_the_keyword_cannot_be_used.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-The_keyword_super-When_the_keyword_is_used.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-The_main_method-Fixing_the_main_method.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-The_main_method-No_main_args.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-The_main_method-Print__Hello,_Java.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-The_main_method-Running_a_program_without_main.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-The_main_method-Select_correct_main_method.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-The_main_method-Theory.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-The_main_method-Who_is_the_main.main" target="11" />
       <module name="Coffee_Machine_(Java).Topics-The_while_and_do-while_loops-Determine_the_result.main" target="11" />
       <module name="Coffee_Machine_(Java).Topics-The_while_and_do-while_loops-Determine_the_result__1_.main" target="11" />
       <module name="Coffee_Machine_(Java).Topics-The_while_and_do-while_loops-Squares_of_natural_numbers.main" target="11" />
       <module name="Coffee_Machine_(Java).Topics-The_while_and_do-while_loops-Statements.main" target="11" />
       <module name="Coffee_Machine_(Java).Topics-The_while_and_do-while_loops-Theory.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Types_and_variables-Assignments.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Types_and_variables-Invalid_declaration_of_variables.main" target="11" />
+      <module name="Coffee_Machine_(Java).Topics-Types_and_variables-Theory.main" target="11" />
       <module name="Coffee_Machine_(Java).util.main" target="11" />
     </bytecodeTargetLevel>
   </component>
